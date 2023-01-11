@@ -1,0 +1,7 @@
+{
+    "WELCOME_MSG": "Hello, {}! This bot is designed to shorten URLs.",
+    "HOWTO_MSG": "Send the bot a valid URL and it will return shortened version.",
+    "DENIED_MSG": "I'm sorry, {}, but you're not allowed to use this bot.",
+    "SHORT_URL": "Here's yours shortened URL: {}",
+    "INVALID_URL": "This is not a valid URL."
+}
