@@ -14,4 +14,4 @@ In other cases the bot expects to recieve a valid URL adress.
 The bot reading `user_id` from **message.from_user** and checking if this ID is presented in the `ALLOWED_IDS`. If not, the bot will send **DENIED_MSG** from message templates. Otherwise the bot will be expecting message, which contains **valid public URL**. If it's not (module responsible for checking is `validators.url`), the bot will reply with **INVALID_MSG** template. If the URL is correct, the bot will launch `caller.py` scripts and will send the shortened URL to the user.
 
 ## Changelog
-**2023-01-12** Added logging to `stdout`, should be working with `docker logs` too.
+**2023/01/12** Added logging to `stdout`, should be working with `docker logs` too.
