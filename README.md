@@ -1,4 +1,6 @@
 <a href="https://codeclimate.com/github/iwatkot/iwasendbot/maintainability"><img src="https://api.codeclimate.com/v1/badges/fd0932ad1fd4cfd1dcd2/maintainability" /></a>
+## To-Do
+1. Change the logig for `ALLOWED_IDS` storing in `.env` file to an external json/txt file.
 
 ## Overview
 This telegram bot uses short.io API for URL shortening in **caller.py** script. The bot is built on **aiogram** with **asyncio**.<br>
