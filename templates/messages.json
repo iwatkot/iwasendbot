@@ -9,6 +9,5 @@
     "CANCELLED": "The operation was cancelled.",
     "WRONG_ID_INPUT": "The value you entered doesn't look like a correct telgram ID. Try using /edituser once more.",
     "DELETED_FROM_WL": "The user was deleted from the whitelist. The bot will no longer work for this telegram ID.",
-    "ADDED_TO_WL": "The user was added to the whitelist. The bot will now work for this telegram ID.",
-    "USERINFO_PREFIX": "_Here's your telegram user info:_\n\n"
+    "ADDED_TO_WL": "The user was added to the whitelist. The bot will now work for this telegram ID."
 }
