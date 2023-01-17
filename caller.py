@@ -13,6 +13,7 @@ HEADERS = {
 
 
 def short_url(long_url):
+    # Connects to the API and returns the shortened URL.
     payload = {
         "domain": DOMAIN,
         "originalURL": long_url,

@@ -2,6 +2,13 @@
     "WELCOME_MSG": "Hello, {}! This bot is designed to shorten URLs.",
     "HOWTO_MSG": "Send the bot a valid URL and it will return shortened version.",
     "DENIED_MSG": "I'm sorry, {}, but you're not allowed to use this bot.",
-    "SHORT_URL": "Here's yours shortened URL: {}",
-    "INVALID_URL": "This is not a valid URL."
+    "NOT_ADMIN": "I'm sorry, {}, but you're not allowed to use this command.",
+    "SHORT_URL": "Here's your shortened URL: {}",
+    "INVALID_URL": "This is not a valid URL.",
+    "EDIT_USER": "Send the telegram user ID, which you wannt to edit. The bot will add the ID if it's not presented in the whitelist, or remove it if it already exists.\nUse /cancel command to discard this operation.",
+    "CANCELLED": "The operation was cancelled.",
+    "WRONG_ID_INPUT": "The value you entered doesn't look like a correct telgram ID. Try using /edituser once more.",
+    "DELETED_FROM_WL": "The user was deleted from the whitelist. The bot will no longer work for this telegram ID.",
+    "ADDED_TO_WL": "The user was added to the whitelist. The bot will now work for this telegram ID.",
+    "USERINFO_PREFIX": "_Here's your telegram user info:_\n\n"
 }
